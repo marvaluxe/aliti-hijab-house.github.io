@@ -1,3 +1,10 @@
+
+window.addEventListener('load', function () {
+    var audio = document.getElementById('background-audio');
+    audio.play();
+});
+
+
 (function ($) {
     "use strict";
     
@@ -113,3 +120,4 @@ logoo.addEventListener('click', () => {
     // Set the window location to the new URL
     window.location.href = targetUrl;
 });
+
